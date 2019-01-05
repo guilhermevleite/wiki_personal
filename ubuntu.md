@@ -1,3 +1,4 @@
+## Wireless driver
 * (This didn't worked for me 5.0GHZ was still off) Install wireless broadcom driver on Macbook Pro mid 2012:
 
 > sudo apt-get update
@@ -12,3 +13,25 @@
 
 - Source: https://ubuntuforums.org/showthread.php?t=2319292
 - Source: https://ubuntuforums.org/showthread.php?t=2214110
+
+## Fan Control
+
+> sudo apt-get install lm-sensors
+> sudo apt-get install fancontrol
+
+> sudo sensors-detect
+Answer YES to all questions
+
+> sudo service module-init-tools restart
+or
+> sudo service kmod start
+
+### Alternative
+
+> sudo add-apt-repository ppa:mactel-support && sudo apt-get update
+> sudo apt-get install macfanctld
+
+* Configuration:
+> /etc/macfanctl.conf
+* Restart daemon:
+> /etc/init.d/macfanctld
