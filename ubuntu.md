@@ -22,9 +22,27 @@
 > sudo sensors-detect
 Answer YES to all questions
 
+Check if it works:
+> sensors
+
 > sudo service module-init-tools restart
 or
 > sudo service kmod start
+
+Install psensor:
+> sudo apt-get install psensor
+Execute:
+> psensor
+
+Configure fancontrol:
+> sudo pwmconfig
+or edit:
+> /etc/fancontrol
+
+Restart fancontrol:
+> sudo service fancontrol restart
+Start fancontrol on startup:
+> sudo service fancontrol start
 
 ### Alternative
 
