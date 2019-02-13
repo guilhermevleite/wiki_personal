@@ -1,3 +1,11 @@
+## Startup with gnome-terminal
+
+> Open: Startup Applications
+> Add
+> Name: Terminal
+> Command: gnome-terminal
+> Add
+
 ## Wireless driver
 * (This didn't worked for me 5.0GHZ was still off) Install wireless broadcom driver on Macbook Pro mid 2012:
 
@@ -11,8 +19,8 @@
 > sudo iw reg set SE
 > sudo sed -i 's/^REG.*=$/&SE/' /etc/default/crda
 
-- Source: https://ubuntuforums.org/showthread.php?t=2319292
-- Source: https://ubuntuforums.org/showthread.php?t=2214110
+Source: https://ubuntuforums.org/showthread.php?t=2319292
+Source: https://ubuntuforums.org/showthread.php?t=2214110
 
 ## Fan Control
 
