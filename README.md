@@ -23,7 +23,7 @@ My personal wiki of any, somewhat, usefull information I might need.
 
 ## M
 [Back](#index)
-* [Markdown - Git Version](https://github.com/Lupins/wiki_personal/blob/master/markdown_git.md)
+* [Markdown](https://github.com/Lupins/wiki_personal/blob/master/markdown.md#markdown)
 
 ## P
 [Back](#index)

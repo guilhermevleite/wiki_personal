@@ -1,6 +1,4 @@
-# Ordinary Markdown
-
----
+# Markdown
 
 ## - Header Tags:
 
