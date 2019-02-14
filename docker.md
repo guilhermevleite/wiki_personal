@@ -17,6 +17,7 @@ container's current state.
 ### Example
 
 > docker run -i -t ubuntu /bin/bash  
+
 Will actually runs docker pull ubuntu, docker container create, and start it.
 
 ## DockerFile
@@ -26,5 +27,5 @@ process. Use ENV instead.
 
 ## Trouble Shooting
 
-Permission denied when accessing docker daemon:  
+- Permission denied when accessing docker daemon:  
 > sudo usermod -a -G docker $USER
