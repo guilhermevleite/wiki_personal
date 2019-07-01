@@ -20,10 +20,8 @@
 
 Sample of output when successful pair:
 
-'''
-Current Bluetooth master: XX:XX:XX:XX:XX:XX  
-Setting master bd_addr to XX:XX:XX:XX:XX:XX  
-'''
+> Current Bluetooth master: XX:XX:XX:XX:XX:XX  
+> Setting master bd_addr to XX:XX:XX:XX:XX:XX  
 
 XX:XX:XX:XX:XX:XX is the MAC of your Bluetooth device.
 
@@ -37,14 +35,12 @@ XX:XX:XX:XX:XX:XX is the MAC of your Bluetooth device.
 
 Sample of output when successful connected:
 
-'''
-[ ok ] Starting bluetooth (via systemctl): bluetooth.service.  
-sixad-bin[23052]: started  
-sixad-bin[23052]: sixad started, press the PS button now  
-Watching... (5s)  
-sixad-sixaxis[23069]: started  
-sixad-sixaxis[23069]: Connected 'PLAYSTATION(R)3 Controller (XX:XX:XX:XX:XX:XX)' [Battery 05]  
-'''
+> [ ok ] Starting bluetooth (via systemctl): bluetooth.service.  
+> sixad-bin[23052]: started  
+> sixad-bin[23052]: sixad started, press the PS button now  
+> Watching... (5s)  
+> sixad-sixaxis[23069]: started  
+> sixad-sixaxis[23069]: Connected 'PLAYSTATION(R)3 Controller (XX:XX:XX:XX:XX:XX)' [Battery 05]  
 
 To turn off sixad and disable the controller:
 
