@@ -23,9 +23,9 @@
     * *Sample of output when successful pair:*  
 
         * > Current Bluetooth master: XX:XX:XX:XX:XX:XX  
-        * > Setting master bd_addr to XX:XX:XX:XX:XX:XX  
+        > Setting master bd_addr to XX:XX:XX:XX:XX:XX  
 
-        * *XX:XX:XX:XX:XX:XX is the MAC of your Bluetooth device.*
+        *XX:XX:XX:XX:XX:XX is the MAC of your Bluetooth device.*
 
 #### Connecting
 
