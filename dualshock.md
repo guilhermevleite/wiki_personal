@@ -11,18 +11,22 @@
 
 ### Configuring
 
+#### Pairing
+
 * First make sure you have Bluetooth on your computer.
 
 * Plug in the controller via USB first to do the initial pairing.
   * Run the sixpair command:
     * > sudo sixpair
 
-Sample of output when successful pair:
+*Sample of output when successful pair:*  
 
 > Current Bluetooth master: XX:XX:XX:XX:XX:XX  
 > Setting master bd_addr to XX:XX:XX:XX:XX:XX  
 
-XX:XX:XX:XX:XX:XX is the MAC of your Bluetooth device.
+*XX:XX:XX:XX:XX:XX is the MAC of your Bluetooth device.*
+
+#### Connecting
 
 * Unplug the controller and run:
 
@@ -41,6 +45,7 @@ Sample of output when successful connected:
 > sixad-sixaxis[23069]: started  
 > sixad-sixaxis[23069]: Connected 'PLAYSTATION(R)3 Controller (XX:XX:XX:XX:XX:XX)' [Battery 05]  
 
+### Turning off
 To turn off sixad and disable the controller:
 
 Just press CTRL+C<Paste>
