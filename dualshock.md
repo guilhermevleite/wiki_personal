@@ -2,7 +2,7 @@
 
 ### Installing
 
-> sudo apt-get install dialog build-essential pyqt4-dev-tools libusb-dev libbluetooth-dev python-dbus pkg-config -y
+> sudo apt-get install dialog build-essential pyqt4-dev-tools libusb-dev libbluetooth-dev python-dbus pkg-config -y  
 > wget https://github.com/RetroPie/sixad/archive/master.zip -O sixad-master.zip  
 > unzip sixad-master.zip  
 > cd sixad-master  
@@ -16,7 +16,7 @@
 * Plug in the controller via USB first to do the initial pairing.
  * Run the sixpair command:
 
-> sudo sixpair
+  * > sudo sixpair
 
 Sample of output when successful pair:
 
