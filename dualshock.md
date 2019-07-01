@@ -13,18 +13,19 @@
 
 #### Pairing
 
-* First make sure you have Bluetooth on your computer.
+* Turn *Bluetooth* on
 
-* Plug in the controller via USB first to do the initial pairing.
-  * Run the sixpair command:
+* Plug in the controller via *USB*
+
+* Run the sixpair command:
     * > sudo sixpair
 
-*Sample of output when successful pair:*  
+    * *Sample of output when successful pair:*  
 
-> Current Bluetooth master: XX:XX:XX:XX:XX:XX  
-> Setting master bd_addr to XX:XX:XX:XX:XX:XX  
+        * > Current Bluetooth master: XX:XX:XX:XX:XX:XX  
+        * > Setting master bd_addr to XX:XX:XX:XX:XX:XX  
 
-*XX:XX:XX:XX:XX:XX is the MAC of your Bluetooth device.*
+        * *XX:XX:XX:XX:XX:XX is the MAC of your Bluetooth device.*
 
 #### Connecting
 
@@ -34,7 +35,7 @@
 
  * This starts the sixad daemon which waits for incoming PS3 controller connections. sixad will completely take over the Bluetooth adapter (exclusive control, so no other Bluetooth devices other than PS3 controllers will work after you start sixad).
 
-* Press the ps3 button on your PS3 controller and wait for 2-3 seconds. You’ll feel the controller vibrate when it successfully connects.
+* Press the **PS** button on your *Dualshock 3* controller and wait for 2-3 seconds. You’ll feel the controller vibrate when it successfully connects.
 
 Sample of output when successful connected:
 
@@ -46,6 +47,7 @@ Sample of output when successful connected:
 > sixad-sixaxis[23069]: Connected 'PLAYSTATION(R)3 Controller (XX:XX:XX:XX:XX:XX)' [Battery 05]  
 
 ### Turning off
+
 To turn off sixad and disable the controller:
 
-Just press CTRL+C<Paste>
+Just press **CTRL+C<Paste>**
