@@ -14,9 +14,8 @@
 * First make sure you have Bluetooth on your computer.
 
 * Plug in the controller via USB first to do the initial pairing.
- * Run the sixpair command:
-
-  * > sudo sixpair
+  * Run the sixpair command:
+    * > sudo sixpair
 
 Sample of output when successful pair:
 
