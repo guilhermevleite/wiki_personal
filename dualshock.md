@@ -2,17 +2,12 @@
 
 ### Installing
 
-> sudo apt-get install dialog build-essential pyqt4-dev-tools libusb-dev libbluetooth-dev python-dbus pkg-config -y
->
-> wget https://github.com/RetroPie/sixad/archive/master.zip -O sixad-master.zip
->
-> unzip sixad-master.zip
->
-> cd sixad-master
->
-> make
->
-> sudo make install
+> sudo apt-get install dialog build-essential pyqt4-dev-tools libusb-dev libbluetooth-dev python-dbus pkg-config -y >
+> wget https://github.com/RetroPie/sixad/archive/master.zip -O sixad-master.zip  
+> unzip sixad-master.zip  
+> cd sixad-master  
+> make  
+> sudo make install  
 
 ### Configuring
 
