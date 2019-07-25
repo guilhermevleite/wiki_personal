@@ -69,7 +69,7 @@ Use three or more of these to create a rule:
 > 1. Ordered
 > 2. One
 > 3. Two
->    4. Two_One 
+>    4. Two_One
 >       5. Two_One_One
 
 ---
