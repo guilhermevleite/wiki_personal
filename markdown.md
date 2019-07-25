@@ -62,15 +62,15 @@ Use three or more of these to create a rule:
 > * One
 > * Two
 >    * Two.One
->      * Two.One.One
+>       * Two.One.One
 
-> Use \X. for orderef lists, change X with the numeration
+> Use X. for orderef lists, change X with the numeration
 
 > 1. Ordered
 > 2. One
 > 3. Two
->     4. Two_One 
->         5. Two_One_One
+>    4. Two_One 
+>       5. Two_One_One
 
 ---
 
