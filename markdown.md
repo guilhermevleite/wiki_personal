@@ -61,8 +61,8 @@ Use three or more of these to create a rule:
 > * Unordered
 > * One
 > * Two
->    * Two.One
->       * Two.One.One
+>   * Two.One
+>     * Two.One.One
 
 > Use X. for orderef lists, change X with the numeration
 
