@@ -67,10 +67,10 @@ Use three or more of these to create a rule:
 > Use X. for orderef lists, change X with the numeration
 
 > 1. Ordered
-> 2. One
-> 3. Two  
->   3. Two_One   
->     3. Two_One_One
+> 1. One
+> 1. Two 
+>   1. Two_One  
+>     1. Two_One_One  
 
 1. First ordered list item
 2. Another item
