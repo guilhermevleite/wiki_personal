@@ -21,3 +21,11 @@ or
 > ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 > FLUSH PREVILEGES;
 > exit;
+
+## Importing .sql file
+
+> mysql -u <user> -p database_name < file.sql
+>  
+> Or, inside MySQL:
+>  
+> source file.sql
