@@ -1,9 +1,9 @@
 ## Startup with gnome-terminal
 
-> Open: Startup Applications
-> Add
-> Name: Terminal
-> Command: gnome-terminal
+> Open: Startup Applications 
+> Add 
+> Name: Terminal 
+> Command: gnome-terminal 
 > Add
 
 ## Wireless driver
