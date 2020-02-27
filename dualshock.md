@@ -1,4 +1,6 @@
-# PS3 controller on Ubuntu:
+# DualShock
+
+## PS3 controller on Ubuntu:
 
 ### Installing
 
