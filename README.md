@@ -1,4 +1,4 @@
-# Lupin's Wiki
+# Leite's Wiki
 My personal wiki of any, somewhat, usefull information I might need.
 
 **Disclaimer:** These are rushed anotations made with no purpose of pleasing the reader...
