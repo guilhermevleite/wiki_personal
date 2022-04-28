@@ -1,3 +1,7 @@
+## To create a symbolic link:
+
+ln -s /path/to/file /path/to/symlink
+
 ## Startup with gnome-terminal
 
 > Open: Startup Applications 
@@ -61,3 +65,18 @@ Start fancontrol on startup:
 > /etc/macfanctl.conf
 * Restart daemon:
 > /etc/init.d/macfanctld
+
+## Stop Suspending
+
+sudo systemctl mask sleep.target suspend.target hibernate.target
+hybrid-sleep.target
+
+### Move random files to folder
+
+> This will move 4 random files from the current folder into the
+new one
+> ls | shuf -n 4 | xargs -i mv {} path_new_folder
+
+### Get Folder Size
+
+du -h --max-depth=1 ./

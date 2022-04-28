@@ -14,19 +14,19 @@ Use # as H1 tag:
 
 Use three or more of these to create a rule:
 
-> Hyphens \--- 
-> Asterisks \*** 
+> Hyphens \---  
+> Asterisks \***  
 > Underscores \___ 
 
 ---
 
 ## - Text Formating:
 
-* Bold:
-> \**bold\** also \__bold\__ 
+##### Bold:
+> \**bold\** also \__bold\__  
 > **This** is important 
 
-* Italic:
+##### Italic:
 > \*italic\* also \_italic_  
 > *This* also is important
 
@@ -47,9 +47,9 @@ Use three or more of these to create a rule:
 ## Inline code:
 > I think you should use an  
 > '<addr>' element here instead.  
-> '<addr>' Test1
-> '<addr>' Test2
-> `<addr>` Test3
+> '<addr>' Test1  
+> '<addr>' Test2  
+> `<addr>` Test3  
 > "<addr>" Test4
 
 ---
