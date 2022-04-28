@@ -14,4 +14,4 @@ Merge videos:
 
 Compress video, crf = 0 lossless, 50 supercompressed, 21 default:
 
-> ffmpeg -i input.mp4 -vcodec libx265 -crf 30 compressed.mp4
+> ffmpeg -i input.mp4 -threads 4 -vcodec libx265 -crf 28 -preset veryfast compressed.mp4
