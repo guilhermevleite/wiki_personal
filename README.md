@@ -36,6 +36,7 @@ My personal wiki of any, somewhat, usefull information I might need.
 ## P
 [[Back](#index)]
 * [Python](https://github.com/Lupins/wiki_personal/blob/master/python.md#python)
+* [PyTorch](https://github.com/Lupins/wiki_personal/blob/master/pytorch.md#pytorch)
 * [Pytube](https://github.com/Lupins/wiki_personal/blob/master/pytube.md#pytube)
 
 ## R
