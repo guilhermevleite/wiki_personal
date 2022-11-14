@@ -3,6 +3,9 @@ My personal wiki of any, somewhat, usefull information I might need.
 
 **Disclaimer:** These are rushed anotations made with no purpose of pleasing the reader...
 
+TODO Create script to update this file
+TODO Update this file
+
 # Index
 
 ## D

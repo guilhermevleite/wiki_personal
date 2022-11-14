@@ -1,3 +1,8 @@
+# Biology Terms:
+
+## Apoptotic
+> A type of cell death, in which the cell lead to its death;
+
 # Terms to Understand
 
 * [ ] UneXt MLP to model the representation

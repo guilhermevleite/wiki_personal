@@ -25,6 +25,10 @@ Will actually runs docker pull ubuntu, docker container create, and start it.
 The linux command 'execute' will not last between the phases of docker building
 process. Use ENV instead.
 
+To build a Dockerfile:
+
+> docker build -f <Dockerfile> -t <name:tag>
+
 ## Trouble Shooting
 
 - Permission denied when accessing docker daemon:  

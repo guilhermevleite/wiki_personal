@@ -10,6 +10,15 @@ ln -s /path/to/file /path/to/symlink
 > Command: gnome-terminal 
 > Add
 
+## Settings not opening
+
+> sudo apt-get install gnome-control-center -y
+> gnome-control-center
+
+## Restarting WiFi
+
+> sudo systemctl restart NetworkManager
+
 ## Wireless driver
 * (This didn't worked for me 5.0GHZ was still off) Install wireless broadcom driver on Macbook Pro mid 2012:
 
