@@ -11,13 +11,13 @@
 
 - Move over to the top of the conflict in the MERGED file and type:
 
-> ]c or [c              # To move between conflicts
-> zR                    # To unfold any hidden code
+> ]c or [c              # To move between conflicts  
+> zR                    # To unfold any hidden code  
 > :diffg RE | BA | LO   # To get from REmote, BAse and LOcal respectively
 
 #### Finishing
 
 - Save and commit
 
-> :wqa                  # Exit and save several files at once
+> :wqa                  # Exit and save several files at once  
 > git commit -m "Solved conflict"

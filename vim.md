@@ -1,3 +1,33 @@
+# VIM
+
+## Grammar
+
+\* Double meaning
+
+### Verbs
+v (visual)  
+c (change)  
+d (delete)  
+y (yank)
+
+### Nouns
+0 (begin of line)  
+$ (end of line)  
+j (next line)  
+w (\* word)  
+s (\* sentence)  
+p (paragraph)  
+b (\* block)  
+t (tag)
+
+### Modifiers
+i (inside)  
+a (around)  
+t (till char)  
+f (find char)  
+/ or ? (search foward, backward)  
+\ (search regex)
+
 ### Search and Replace:
 
 > :substitute
