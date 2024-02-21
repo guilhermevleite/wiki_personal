@@ -1,4 +1,8 @@
-* To use SSH key instead of password:
+# To use key instead of password on Ubunti:
+
+Copy the key into the ~/.ssh/authorized_keys file
+Permission must be: rw--------
+# To use SSH key instead of password on Git services:
 
 Copy the following in ~/.ssh/config
 Make sure ~/.ssh/config has the following permission:

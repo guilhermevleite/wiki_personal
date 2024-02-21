@@ -27,9 +27,14 @@ process. Use ENV instead.
 
 To build a Dockerfile:
 
-> docker build -f <Dockerfile> -t <name:tag>
+> docker build -f \<Dockerfile\> -t \<name:tag\>  
+> docker build . -t \<name:tag\>
 
 ## Trouble Shooting
 
 - Permission denied when accessing docker daemon:  
 > sudo usermod -a -G docker $USER
+
+- GPU not using 100\% memory
+> Launch docker image with less security by adding param '--ipc=host'
+> or set the shared memory size by '--shm_size=5gb'

@@ -1,5 +1,11 @@
 # Markdown
 
+## Renderers
+
+### Grip
+Running:
+> grip \<path_to_file\>
+
 ## - Header Tags:
 
 Use # as H1 tag:
