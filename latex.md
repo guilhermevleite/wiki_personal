@@ -2,7 +2,9 @@
 
 ### Required Packages
 
-> sudo apt install texlive-latex-extra texlive-fonts-recommended texlive-science
+> sudo apt install latexmk texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-science texlive-pictures texlive-bibtex-extra texlive-xetex lmodern cm-super
+
+> sudo apt install texlive-full pandoc biber chktex
 
 Simplest case  
   
