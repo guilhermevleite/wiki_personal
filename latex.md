@@ -1,4 +1,9 @@
 # Latex
+
+### Required Packages
+
+> sudo apt install texlive-latex-extra texlive-fonts-recommended texlive-science
+
 Simplest case  
   
 > latexmk

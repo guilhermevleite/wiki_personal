@@ -1,4 +1,20 @@
-## Mount on Startup
+# HD
+
+## List Blocks
+
+To list partition type use `-f` and `grep disk` to show only disks
+> lsblk
+
+## Mount disks
+
+To mount disk in a folder, sudo user may be required
+> mkdir /mnt/folder
+> mount /dev/sdax /mnt/folder
+
+To unmount disk
+> umount
+
+### Mount on Startup
 
 Supose disk in /media/data
 
@@ -27,16 +43,9 @@ Explanation:
 Do not use mkfs, use specific command:
 
 #### NTFS (example)
+>
 > mkntfs -f /dev/sdb1
 f to do quick format
-
-## List Drives
-
-> lsblk
-List partition type
-> lsblk -f
-List disk only
-> lsblk | grep disk
 
 ## Operate on Disk
 
@@ -44,13 +53,13 @@ Select disk (example)
 > sudo fdisk /dev/sdb
 
 Inside fdisk:
+
 * d delete partition
 * w to flush changes
 
 Delete all partitions
 Create GPT table
 Create partition
-
 
 ## Check health
 
